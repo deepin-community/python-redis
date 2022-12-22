@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Run tests under Python 3
+
+set -eux
+
+for X in $(py3versions -r 2>/dev/null)
+do
+	${X} -m pytest -W always
+done

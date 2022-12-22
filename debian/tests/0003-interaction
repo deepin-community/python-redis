@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+#
+# Interact with server
+
+import redis
+
+client = redis.Redis()
+
+client.set('key', 'value')
+
+assert client.get('key') == b'value'

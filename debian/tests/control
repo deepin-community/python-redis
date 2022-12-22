@@ -1,0 +1,6 @@
+Tests: 0002-python3
+Restrictions: allow-stderr
+Depends: @, redis-server, python3-pytest, python3-setuptools, python3-mock, python3-all
+
+Tests: 0003-interaction
+Depends: @, redis-server

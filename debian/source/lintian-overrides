@@ -1,0 +1,2 @@
+# Upstream not signing their tarballs
+debian-watch-does-not-check-gpg-signature
