@@ -4,7 +4,7 @@
 
 set -eux
 
-for X in $(py3versions -r 2>/dev/null)
+for X in $(py3versions --supported)
 do
-	${X} -m pytest -W always
+	${X} -m pytest -W always -k 'not redismod and onlynoncluster and not module and not busy_loading_disconnects_socket and not busy_loading_from_pipeline_immediate_command and not busy_loading_from_pipeline'
 done

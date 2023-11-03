@@ -5,11 +5,11 @@ Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders:
  Chris Lamb <lamby@debian.org>,
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
  dh-python,
  python3-all,
  python3-setuptools,
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/python-team/packages/python-redis.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/python-redis
 Homepage: https://github.com/andymccurdy/redis-py

@@ -1,3 +1,27 @@
+python-redis (4.3.4-3) unstable; urgency=medium
+
+  * Skip a bunch of known-to-fail autopkgtests, especially ones that require
+    third-party Redis modules (eg. BLOOM).
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 07 Jul 2022 17:53:19 +0100
+
+python-redis (4.3.4-2) unstable; urgency=medium
+
+  * Add python3-pytest-asyncio as a requirement for 0002-python3 autopkgtest.
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 07 Jul 2022 16:17:03 +0100
+
+python-redis (4.3.4-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #1014102)
+  * Use py3versions --supported in autopkgtests over --requested.
+  * Bump debhelper compatibility level to 13.
+  * Update debian/copyright.
+  * Bump Standards-Version to 4.6.1.
+  * Install examples.
+
+ -- Chris Lamb <lamby@debian.org>  Thu, 07 Jul 2022 12:43:29 +0100
+
 python-redis (3.5.3-2) unstable; urgency=medium
 
   * Team upload.

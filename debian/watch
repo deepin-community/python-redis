@@ -1,2 +1,2 @@
 version=4
-https://github.com/andymccurdy/redis-py/tags (?:.*?/)?(\d.*)\.tar\.gz
+https://github.com/andymccurdy/redis-py/tags (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@
